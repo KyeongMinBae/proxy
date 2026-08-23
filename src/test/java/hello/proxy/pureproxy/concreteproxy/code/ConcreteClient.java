@@ -2,9 +2,9 @@ package hello.proxy.pureproxy.concreteproxy.code;
 
 public class ConcreteClient {
 
-    private ConcoreteLogic concreteLogic;
+    private ConcreteLogic concreteLogic;
 
-    public ConcreteClient(ConcoreteLogic concreteLogic) {
+    public ConcreteClient(ConcreteLogic concreteLogic) {
         this.concreteLogic = concreteLogic;
     }
 
